@@ -18,9 +18,9 @@ GCloud configuration name will be displayed only if `~/.config/gcloud/active_con
 
 If profile name has `-dev`, `-qa`, `-test` or `-prod` suffix then additional coloring will be applied:
 
-- green color for `-dev`
-- yellow color for `-test` and `-stage`
-- red color for `-prod`
+- green color for `-dev` suffix
+- yellow color for `-test` and `-stage` suffixes
+- red color for `-prod` suffix
 - white color for the rest
 
 GKE cluster name will be displayed only if the following conditions are met:
