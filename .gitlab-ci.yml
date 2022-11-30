@@ -1,0 +1,8 @@
+stages:
+  - test
+
+check_syntax:
+  image: bash
+  script:
+    - bash -n gcloud-prompt.sh
+
