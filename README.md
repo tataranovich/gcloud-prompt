@@ -1,6 +1,6 @@
 # GCloud Prompt
 
-Helper script to visualize gcloud configuration is active and warn if current GKE context from a different project.
+Helper script to display active gcloud configuration name and warn if current kubectl context has a GKE cluster from a different GCP project.
 
 ## Installation
 
@@ -33,3 +33,4 @@ GKE cluster name will be displayed only if the following conditions are met:
 
 If GKE cluster from current context is not from the configured GCP project then additional warning and coloring will be applied.
 
+![gcloud-prompt-demo](docs/images/gcloud-prompt-demo.png)
