@@ -6,9 +6,13 @@ Helper script to visualize gcloud configuration is active and warn if current GK
 
 1. Copy `gcloud-prompt.sh` file to somewhere (e.g. `~/.gcloud-prompt.sh`)
 2. Add the following line to your .bashrc
+```
     source ~/.gcloud-prompt.sh
+```
 3. Change your `PS1` to call `__gcloud_ps1` as command substitution:
+```
     PS1='\u@\h: \w$(__gcloud_ps1) \$ '
+```
 
 GCloud configuration name will be displayed only if `~/.config/gcloud/active_config` file is present.
 
